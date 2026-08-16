@@ -1,0 +1,12 @@
+.gradle
+/build
+/local.properties
+/.idea
+/*.iml
+/.gradle
+/captures
+.externalNativeBuild
+/.cxx
+.gradle
+**/build/
+apps/greatman-money/app/build/
