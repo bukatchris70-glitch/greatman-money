@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- background circle -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,0a54,54 0 1,0 0,108a54,54 0 1,0 0,-108" />
+    <!-- inner colored circle -->
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:pathData="M54,8a46,46 0 1,0 0,92a46,46 0 1,0 0,-92" />
+    <!-- stylized G (simple rectangle and arc) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,36 h24 v12 h-12 v12 h12 v12 h-24 v-6 h12 v-6 h-12 z" />
+</vector>
