@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GREATMAN MONEY</string>
+    <string name="add_goal">Add Goal</string>
+    <string name="add_income">+ Income</string>
+    <string name="add_expense">- Expense</string>
+    <string name="recent_activity">Recent activity</string>
+    <string name="all_transactions">All transactions</string>
+    <string name="savings_and_emergency">Savings &amp; Emergency Fund</string>
+    <string name="total_income">Total income</string>
+    <string name="total_expense">Total expenses</string>
+    <string name="available_balance">Available balance</string>
+    <string name="no_goals">No goals yet</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_valid_amount">Enter valid amount</string>
+    <string name="enter_numeric_amount">Enter numeric amount</string>
+    <string name="enter_target">Enter target amount</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#102428</color>
+    <color name="colorPrimaryVariant">#081843</color>
+    <color name="colorAccent">#087443</color>
+    <color name="incomeColor">#087443</color>
+    <color name="expenseColor">#B42318</color>
+    <color name="bgColor">#F4F6F8</color>
+    <color name="cardBg">#FFFFFF</color>
+    <color name="textPrimary">#102428</color>
+    <color name="textSecondary">#667085</color>
+</resources>
