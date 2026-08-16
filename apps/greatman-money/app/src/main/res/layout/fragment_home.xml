@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView android:id="@+id/tvTitle"
+        android:text="GREATMAN MONEY"
+        android:textSize="20sp" android:textStyle="bold"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/tvBalance"
+        android:textSize="32sp" android:textStyle="bold"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="12dp"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingTop="12dp">
+        <Button android:id="@+id/btnAddIncome" android:text="＋ Income" android:layout_weight="1" android:layout_width="0dp" android:layout_height="48dp"/>
+        <Button android:id="@+id/btnAddExpense" android:text="− Expense" android:layout_weight="1" android:layout_width="0dp" android:layout_height="48dp"/>
+    </LinearLayout>
+
+    <TextView android:text="Recent activity" android:textStyle="bold" android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"/>
+</LinearLayout>

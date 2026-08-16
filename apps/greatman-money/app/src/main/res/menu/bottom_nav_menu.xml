@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:title="Home" android:icon="@android:drawable/ic_menu_view"/>
+    <item android:id="@+id/nav_money" android:title="Money" android:icon="@android:drawable/ic_menu_agenda"/>
+    <item android:id="@+id/nav_goals" android:title="Goals" android:icon="@android:drawable/ic_menu_save"/>
+    <item android:id="@+id/nav_reports" android:title="Reports" android:icon="@android:drawable/ic_menu_info_details"/>
+</menu>
